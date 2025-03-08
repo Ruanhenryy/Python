@@ -40,3 +40,13 @@ print("O carro montana aparece", quantidade ,"vezes")
 texto = "Python é uma linguagem de programação muito popular e versátil"
 quantidade = texto.count('a')
 print("A letra 'a' aparece", quantidade, "vezes no texto.")
+
+#INVERTENDO OS ITENS DA LISTA:
+carros.reverse()
+print(carros)
+
+#PROCURANDO O INDICE ONDE O ITEM QUE ESTAMOS PROCURANDO ESTÁ (OBS: ELE VAI INFORMAR O  INDICE DO PRIMEIRO ITEM DO MESMO VALOR):
+print("O indice do carro 'saveiro' é",carros.index('saveiro'),"na lista!")
+
+#PROCURANDO O INDICE ONDE O ITEM QUE ESTAMOS PROCURANDO ESTÁ EM UM INTERVALO DE INDICES( .INDEX(ITEM, INDICE INICIAL,  INDICEFINAL))
+print("O indice do carro 'sw4' é",carros.index('sw4',1,8),"na lista!")
