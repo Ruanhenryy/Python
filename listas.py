@@ -50,3 +50,12 @@ print("O indice do carro 'saveiro' é",carros.index('saveiro'),"na lista!")
 
 #PROCURANDO O INDICE ONDE O ITEM QUE ESTAMOS PROCURANDO ESTÁ EM UM INTERVALO DE INDICES( .INDEX(ITEM, INDICE INICIAL,  INDICEFINAL))
 print("O indice do carro 'sw4' é",carros.index('sw4',1,8),"na lista!")
+
+#ORDENANDO OS ITENS DA LISTA (OBS: TODOS OS ELEMENTOS TEM QUE SER DO MESMO TIPO  COMO EXEMPLO ABAIXO STRING)
+compras = ['arroz','feijão','batata','leite','carne','macarrão','sardinha','mateiga','papel']
+compras.sort()
+print(compras)
+
+#ORDENANDO OS ITENS DA LISTA NA ORDEM DECRESCENTE PASSANDO O PARAMETRO REVERSE=TRUE (OBS: TODOS OS ELEMENTOS TEM QUE SER DO MESMO TIPO  COMO EXEMPLO ABAIXO STRING)
+compras.sort(reverse=True)
+print(compras)
