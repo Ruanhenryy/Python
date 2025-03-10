@@ -59,3 +59,6 @@ print(compras)
 #ORDENANDO OS ITENS DA LISTA NA ORDEM DECRESCENTE PASSANDO O PARAMETRO REVERSE=TRUE (OBS: TODOS OS ELEMENTOS TEM QUE SER DO MESMO TIPO  COMO EXEMPLO ABAIXO STRING)
 compras.sort(reverse=True)
 print(compras)
+
+for item in compras:
+    print(item)
